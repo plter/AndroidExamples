@@ -22,12 +22,13 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         
         root = findViewById(R.id.container);
-        root.setDrawingCacheEnabled(true);
         
         findViewById(R.id.btnSnap).setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View arg0) {
+				root.setDrawingCacheEnabled(true);
+				root.buildDrawingCache();
 				Bitmap bmp = root.getDrawingCache();
 				
 				try {
@@ -43,6 +44,7 @@ public class MainActivity extends Activity {
 					
 					Toast.makeText(MainActivity.this, "Fail to snap!", Toast.LENGTH_SHORT).show();
 				}
+				root.setDrawingCacheEnabled(false);
 			}
 		});
     }

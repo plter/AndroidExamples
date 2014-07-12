@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="today.ime.snapsurfaceview.MainActivity"
+            android:name="today.ime.snapvideo.MainActivity"
             android:screenOrientation="landscape"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
@@ -24,7 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="today.ime.snapsurfaceview.ImageViewerAty"/>
+        <activity android:name="today.ime.snapvideo.ImageViewerAty"/>
     </application>
 
 </manifest>

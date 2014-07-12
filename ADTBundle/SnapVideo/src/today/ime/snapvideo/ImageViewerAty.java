@@ -1,4 +1,4 @@
-package today.ime.snapsurfaceview;
+package today.ime.snapvideo;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

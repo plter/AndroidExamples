@@ -1,8 +1,9 @@
-package today.ime.snapsurfaceview;
+package today.ime.snapvideo;
 
 import java.io.File;
 import java.io.OutputStream;
 
+import today.ime.snapsurfaceview.R;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;

@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         tvOut = (TextView) findViewById(R.id.tvOut);
-
         player = MediaPlayer.create(this, R.raw.sound);
     }
 

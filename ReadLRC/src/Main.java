@@ -12,6 +12,7 @@ public class Main {
 
 
     public static void main(String[] args){
+
         File f = new File("sound.lrc");
         try {
             FileInputStream fileInputStream = new FileInputStream(f);
@@ -25,7 +26,7 @@ public class Main {
             for (int i=0;i<100;i++){
 
                 if (reader.contains(i)) {
-                    System.out.print(String.format("\r%s", reader.get(i)));
+                    System.out.print(String.format("\r %s", reader.get(i)));
                 }
 
                 try {

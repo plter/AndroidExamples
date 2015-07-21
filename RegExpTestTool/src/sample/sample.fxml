@@ -1,0 +1,20 @@
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Button?>
+<VBox fx:controller="sample.Controller"
+      xmlns:fx="http://javafx.com/fxml"
+      alignment="TOP_LEFT">
+
+    <HBox>
+        <Label text="正则表达式："/>
+        <TextField fx:id="tfRegExp" minWidth="350"/>
+        <Button text="执行匹配" onMouseClicked="#btnStartMatchClickedHandler"/>
+    </HBox>
+    <Label text="文本内容"/>
+    <TextArea fx:id="taTextContent" minHeight="500"/>
+    <Label text="输出结果"/>
+    <TextArea fx:id="taOutput" editable="false"/>
+</VBox>

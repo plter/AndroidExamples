@@ -1,0 +1,189 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.plter.ruler.MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.plter.ruler.CM
+            android:layout_width="10mm"
+            android:layout_height="10mm"
+            android:background="#ff0000"
+            android:text="0cm"
+            android:textColor="#ffffff"
+            android:textSize="10pt" />
+
+        <com.plter.ruler.CM
+            android:layout_width="10mm"
+            android:layout_height="10mm"
+            android:background="#ff9900"
+            android:text="1cm"
+            android:textColor="#ffffff"
+            android:textSize="10pt" />
+
+        <com.plter.ruler.CM
+            android:layout_width="10mm"
+            android:layout_height="10mm"
+            android:background="#cccc00"
+            android:text="2cm"
+            android:textColor="#ffffff"
+            android:textSize="10pt" />
+
+        <com.plter.ruler.CM
+            android:layout_width="10mm"
+            android:layout_height="10mm"
+            android:background="#00ff00"
+            android:text="3cm"
+            android:textColor="#ffffff"
+            android:textSize="10pt" />
+
+        <com.plter.ruler.CM
+            android:layout_width="10mm"
+            android:layout_height="10mm"
+            android:background="#00cccc"
+            android:text="4cm"
+            android:textColor="#ffffff"
+            android:textSize="10pt" />
+
+        <com.plter.ruler.CM
+            android:layout_width="10mm"
+            android:layout_height="10mm"
+            android:background="#0000ff"
+            android:text="5cm"
+            android:textColor="#ffffff"
+            android:textSize="10pt" />
+
+        <com.plter.ruler.CM
+            android:layout_width="10mm"
+            android:layout_height="10mm"
+            android:background="#cc00cc"
+            android:text="6cm"
+            android:textColor="#ffffff"
+            android:textSize="10pt" />
+
+        <com.plter.ruler.CM
+            android:layout_width="10mm"
+            android:layout_height="10mm"
+            android:background="#ff0000"
+            android:text="7cm"
+            android:textColor="#ffffff"
+            android:textSize="10pt" />
+
+        <com.plter.ruler.CM
+            android:layout_width="10mm"
+            android:layout_height="10mm"
+            android:background="#ff9900"
+            android:text="8cm"
+            android:textColor="#ffffff"
+            android:textSize="10pt" />
+
+        <com.plter.ruler.CM
+            android:layout_width="10mm"
+            android:layout_height="10mm"
+            android:background="#cccc00"
+            android:text="9cm"
+            android:textColor="#ffffff"
+            android:textSize="10pt" />
+
+        <com.plter.ruler.CM
+            android:layout_width="10mm"
+            android:layout_height="10mm"
+            android:background="#00ff00"
+            android:text="10cm"
+            android:textColor="#ffffff"
+            android:textSize="10pt" />
+
+        <com.plter.ruler.CM
+            android:layout_width="10mm"
+            android:layout_height="10mm"
+            android:background="#00cccc"
+            android:text="11cm"
+            android:textColor="#ffffff"
+            android:textSize="10pt" />
+
+        <com.plter.ruler.CM
+            android:layout_width="10mm"
+            android:layout_height="10mm"
+            android:background="#0000ff"
+            android:text="12cm"
+            android:textColor="#ffffff"
+            android:textSize="10pt" />
+
+        <com.plter.ruler.CM
+            android:layout_width="10mm"
+            android:layout_height="10mm"
+            android:background="#cc00cc"
+            android:text="13cm"
+            android:textColor="#ffffff"
+            android:textSize="10pt" />
+
+        <com.plter.ruler.CM
+            android:layout_width="10mm"
+            android:layout_height="10mm"
+            android:background="#ff0000"
+            android:text="14cm"
+            android:textColor="#ffffff"
+            android:textSize="10pt" />
+
+        <com.plter.ruler.CM
+            android:layout_width="10mm"
+            android:layout_height="10mm"
+            android:background="#ff9900"
+            android:text="15cm"
+            android:textColor="#ffffff"
+            android:textSize="10pt" />
+
+        <com.plter.ruler.CM
+            android:layout_width="10mm"
+            android:layout_height="10mm"
+            android:background="#cccc00"
+            android:text="16cm"
+            android:textColor="#ffffff"
+            android:textSize="10pt" />
+
+        <com.plter.ruler.CM
+            android:layout_width="10mm"
+            android:layout_height="10mm"
+            android:background="#00ff00"
+            android:text="17cm"
+            android:textColor="#ffffff"
+            android:textSize="10pt" />
+
+        <com.plter.ruler.CM
+            android:layout_width="10mm"
+            android:layout_height="10mm"
+            android:background="#00cccc"
+            android:text="18cm"
+            android:textColor="#ffffff"
+            android:textSize="10pt" />
+
+        <com.plter.ruler.CM
+            android:layout_width="10mm"
+            android:layout_height="10mm"
+            android:background="#0000ff"
+            android:text="19cm"
+            android:textColor="#ffffff"
+            android:textSize="10pt" />
+
+        <com.plter.ruler.CM
+            android:layout_width="10mm"
+            android:layout_height="10mm"
+            android:background="#cc00cc"
+            android:text="20cm"
+            android:textColor="#ffffff"
+            android:textSize="10pt" />
+    </LinearLayout>
+
+</LinearLayout>

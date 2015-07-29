@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MultipleChoice</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="which_city_in_hebei">以下哪几个城市是属于河北？</string>
+    <string name="beijing">北京</string>
+    <string name="shijiazhaung">石家庄</string>
+    <string name="luoyang">洛阳</string>
+    <string name="wuhan">武汉</string>
+    <string name="baoding">保定</string>
+    <string name="xingtai">邢台</string>
+    <string name="shanghai">上海</string>
+    <string name="chongqing">重庆</string>
+    <string name="handan">邯郸</string>
+    <string name="submit">提交</string>
+</resources>

@@ -39,7 +39,7 @@ public class DragableManager implements OnTouchListener {
 
 	private float offsetX=0;
 	private float offsetY=0;
-	private RelativeLayout.LayoutParams lp;
+	private LayoutParams lp;
 	private boolean dragable=false;
 
 	private View target=null;

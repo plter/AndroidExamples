@@ -1,9 +1,5 @@
 package com.plter.snapvideo;
 
-import java.io.File;
-import java.io.OutputStream;
-
-import today.ime.snapsurfaceview.R;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -17,6 +13,9 @@ import android.view.View;
 import android.widget.MediaController;
 import android.widget.Toast;
 import android.widget.VideoView;
+
+import java.io.File;
+import java.io.OutputStream;
 
 public class MainActivity extends Activity {
 

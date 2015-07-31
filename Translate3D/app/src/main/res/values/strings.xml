@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Translate3D</string>
+
+    <string name="hello_world">Software name:\nHello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="open_config_panel">Open Config Panel</string>
+    <string name="back">Back</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="this_is_config_panel">This is config panel</string>
+</resources>

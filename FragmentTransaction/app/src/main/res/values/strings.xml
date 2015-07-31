@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FragmentTransaction</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="show_another_fragment">Show another fragment</string>
+    <string name="animation_type">Animation Type:</string>
+    <string name="custom_animation">Custom translate animation</string>
+    <string name="transit_fragment_open">TRANSIT_FRAGMENT_OPEN</string>
+    <string name="transit_fragment_fade">TRANSIT_FRAGMENT_FADE</string>
+    <string name="back">Back</string>
+    <string name="custom_animation_flip3d">Custom flip3d animation</string>
+</resources>

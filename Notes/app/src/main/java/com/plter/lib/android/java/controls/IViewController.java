@@ -14,7 +14,7 @@ public interface IViewController {
 	 * @param vc
 	 * @param animated
 	 */
-	public void pushViewController(ViewController vc,boolean animated);
+	public void pushViewController(ViewController vc, boolean animated);
 	
 	/**
 	 * 从堆栈中移除当前控制器对象的所以后续控制器对象

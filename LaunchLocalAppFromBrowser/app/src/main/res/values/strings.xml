@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LaunchLocalAppFromBrowser</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_local_app">LocalAppActivity</string>
+    <string name="this_is_a_local_app">This is a local app</string>
+    <string name="launch_the_local_activity">Launch the local activity</string>
+    <string name="launch_description_text_string">Click the button below to show the local activity,and you can also navigate to the url \'local://example.app\' using you web browser to launch the local activity</string>
+</resources>

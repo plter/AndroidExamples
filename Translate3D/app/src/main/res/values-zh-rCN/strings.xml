@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">3D翻转面板示例</string>
+
+    <string name="hello_world">软件名字：\nHello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="open_config_panel">打开配置面板</string>
+    <string name="back">返回</string>
+    <string name="this_is_config_panel">这是配置面板</string>
+</resources>

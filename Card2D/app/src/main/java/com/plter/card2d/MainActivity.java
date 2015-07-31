@@ -7,8 +7,6 @@ import android.view.animation.Animation;
 import android.view.animation.ScaleAnimation;
 import android.widget.ImageView;
 
-import com.jkxy.card2d.R;
-
 
 public class MainActivity extends Activity {
 

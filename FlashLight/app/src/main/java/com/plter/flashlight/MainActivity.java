@@ -11,7 +11,7 @@ import android.view.View.OnClickListener;
 
 public class MainActivity extends Activity {
 
-	private OnClickListener btnClickHandler = new View.OnClickListener() {
+	private OnClickListener btnClickHandler = new OnClickListener() {
 		
 		@Override
 		public void onClick(View v) {

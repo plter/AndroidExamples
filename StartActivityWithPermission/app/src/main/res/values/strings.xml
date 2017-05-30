@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">StartActivityWithPermission</string>
+    <string name="start_bactivity">Start BActivity</string>
+</resources>

@@ -13,7 +13,7 @@ public class ViewControllerEvent extends Event {
 	
 	/**
 	 * 构建一个ViewControllerEvent事件
-	 * @param type	事件的类型
+	 * @param name	事件的类型
 	 */
 	public ViewControllerEvent(String name) {
 		super(name);

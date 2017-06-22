@@ -16,7 +16,7 @@ public class FragmentMain extends Fragment implements View.OnClickListener {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        View root = inflater.inflate(R.layout.fragment_main,container,false);
+        View root = inflater.inflate(R.layout.fragment_main, container, false);
 
         root.findViewById(R.id.btnGoNextPage).setOnClickListener(this);
         return root;
@@ -24,13 +24,13 @@ public class FragmentMain extends Fragment implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
+        switch (v.getId()) {
             case R.id.btnGoNextPage:
                 getFragmentManager()
                         .beginTransaction()
+                        .setCustomAnimations(R.animator.flip_enter, R.animator.flip_exit, R.animator.flip_pop_enter, R.animator.flip_pop_exit)
+                        .replace(R.id.fragment, new FragmentImage())
                         .addToBackStack(null)
-                        .setCustomAnimations(R.animator.flip_enter,R.animator.flip_exit,R.animator.flip_pop_enter,R.animator.flip_pop_exit)
-                        .replace(R.id.fragment,new FragmentImage())
                         .commit();
                 break;
         }
